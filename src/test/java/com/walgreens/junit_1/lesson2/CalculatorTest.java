@@ -3,8 +3,10 @@ package com.walgreens.junit_1.lesson2;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 
+@Ignore
 public class CalculatorTest {
 	
 	static Calculator calculator;
