@@ -9,6 +9,10 @@ public class Calculator {
 		total = a + b;
 	}
 	
+	public void subtract( double a, double b) {
+		total = a - b;
+	}
+	
 	public double getCurrentTotal() {
 		return total;
 	}
